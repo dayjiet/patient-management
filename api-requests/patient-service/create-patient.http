@@ -1,0 +1,13 @@
+### Creates a new patient entity
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+  "name": "Andre Romelle Young",
+  "email": "drdre@aftermath.com",
+  "address": "1234 Compton Blvd, Compton, CA",
+  "dateOfBirth": "1965-02-18",
+  "registeredDate": "2024-11-28"
+}
+
+###
